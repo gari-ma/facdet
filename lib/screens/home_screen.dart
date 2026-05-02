@@ -126,7 +126,6 @@ class _HomeScreenState extends State<HomeScreen> {
             
             const SizedBox(height: 24),
             
-            // Continue Button (Only shown if image is picked)
             if (_image != null)
               CustomButton(
                 label: "Analyze & Continue",
